@@ -18,8 +18,8 @@ function johnLennonFacts(array){
 
   while (i < 4){
     let i = 0;
-    return facts[i] + "!!!";
     i++;
+    return `${facts[i]}` + "!!!";
 
   }
 

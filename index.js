@@ -16,8 +16,9 @@ function johnLennonFacts(array){
   "He hated the sound of his own voice"
   ];
 
+  let i = 0;
+
   while (i < 4){
-    let i = 0;
     i++;
     return `${facts[i]}` + "!!!";
 

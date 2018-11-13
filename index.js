@@ -25,3 +25,21 @@ function johnLennonFacts(facts){
   }
   return array
 }
+
+function iLoveTheBeatles(i){
+  var array = [];
+  var i = 0;
+
+  function incrementVariable(){
+    i = i + 1;
+  }
+
+  do {
+    array.push("I love the Beatles!")
+    incrementVariable()
+  }
+
+  while (i < 15)
+
+  return array
+}

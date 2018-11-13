@@ -17,6 +17,7 @@ function johnLennonFacts(array){
   ];
 
   while (i < 4){
+    i = 0;
     return facts[i] + "!!!";
     i++
 
